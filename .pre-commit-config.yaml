@@ -1,0 +1,8 @@
+repos:
+  - repo: https://github.com/JohnnyMorganz/StyLua
+    rev: v2.6.0
+    hooks:
+      - id: stylua
+        name: check LUA formatting
+        files: '\.lua$'
+        types: [file]
